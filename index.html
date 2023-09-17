@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+   
+    <title>21</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: El+Messiri;
+        }
+
+        .thumbnail:hover::after{
+        content: attr(data-caption);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color:rgba(0, 0, 0, 0.845) ;
+        color: white;
+        font-size: 25px;
+        opacity: 100%;
+    }
+    .thumbnail:hover {
+      transform: scale(1.05);
+      opacity: 60%;
+      
+    }
+  
+    .thumbnail img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;    
+    }
+    h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+
+    .bg:after{
+            content: "";
+            display: block;
+            position: absolute;
+            top:0;
+            left:0;
+
+            background-image: url(https://images.pexels.com/photos/5069795/pexels-photo-5069795.png?auto=compress&cs=tinysrgb&w=600);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            z-index: -1;
+    
+        }
+
+        .bg{
+            text-align: center;
+            position: relative;
+            background: none;
+            padding: 30px;
+        }
+
+       
+    </style>
+
+    <div class="container">
+        <nav  class="navbar navbar-expand-sm navbar-light ">
+            <a  class="navbar-brand" href="#">
+    <img src="https://logodix.com/logo/1931272.png" alt="Bootstrap" width="30" height="30" class="d-inline-block align-top">
+            </a>
+
+            <button  class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#toggleMobileMenu" 
+            aria-controls="toggleMobileMenu" 
+            
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class ="navbar-nav ms-auto text-center">
+            <li >
+                <a class="nav-link" href="#">الرئيسية</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">منتجاتنا</a>
+            </li>
+             <li>
+               <a class="nav-link" href="#">معرض الاعمال</a>
+            </li>
+            </ul>
+            </div>
+            </nav>
+            </div>
+            
+            
+            <div class="bg">
+                <h1 style="color: rgb(199, 34, 34);">اهلا بك</h1>
+              
+                
+                <button type="button" class="btn btn-secondary">معرض الاعمال</button>
+            </div>
+         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+
+
+     <div class="text-center">
+        <div class="row">
+        </br> <h1 class="font-weight-bold"></h1></br>
+            <div class="col-md-3">
+                <div class="colorsection card shadow" style="background-color: rgb(231, 215, 218);">
+                </br><h3 style="color: white;"></h3>
+                <h4 >مميز  </h4>
+                </div>
+
+            </div></br>
+            <div class="col-md-3">
+                <div class=" colorsection card shadow"  style="background-color: rgb(170, 170, 205);">
+                </br> <h3 style="color: white;"></h3>
+                <h4>منزلك</h4>
+                </div>
+            </div>
+        
+            <div class="col-md-3">
+                <div class="colorsection card shadow" style="background-color: rgb(255, 244, 225);">
+                </br> <h3 style="color: white;"></h3>
+                    <h4>  لجعل</h4>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class=" colorsection card shadow"  style="background-color:rgb(235, 179, 179)">
+            </br> <h3 style="color: white;"></h3>
+            <h4>رسمة  </h4>
+        
+
+            </div></div>
+        </div>
+        </div>
+        <div class="container text-right">
+        <div style="background-color: #ffffff">
+        
+             <h1>من نحن؟</h1>
+         <h4> متجر فني لبيع اللوحات ذات جودة عالية </h4>
+        <h4 style="color: rgb(152, 54, 54);">اذا كنت تواجه مشكلة في  الموقع تواصل معنا عبر برامج التواصل الاجتماعي في اسفل الصفحة</h4>
+        
+            </div>
+        </div></br>
+
+        <div style="background-color:#e5edd8">
+            <div class="container text-center">
+                    <h1 class=" font-weight-bold "> ماذا توفر خدماتنا؟ </h1>
+                    <h3  style="color: rgb(152, 54, 54);"> مميزات عامة يوفرها متجرنا</h3>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-4">
+                      <i class="glyphicon glyphicon-flash"></i>
+                      <h2 class="font-weight-bold ">سرعة بالتنفيذ</h2>
+                      <p class="grey-text ">سرعة التسليم لعملائنا
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <i class="glyphicon glyphicon-headphones"></i>
+                      <h2 class="font-weight-bold ">خدمة العملاء</h2>
+                      <p class="grey-text ">توصيل لجميع انحاء العالم 
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <i class="glyphicon glyphicon-user"></i>
+                      <h2 class="font-weight-bold ">دعم</h2>
+                      <p class="grey-text ">نوفر خصومات لزبائننا الدائمين
+                      </p>
+                    </div>
+                  </div><br>
+                </div></div>
+              
+
+        <div class="container text-center"></br>
+            <div class="row">
+                <h1>اللوحات المتاحة</h1>
+                <div class="col-md-4">
+                    <div class="thumbnail" data-caption="1">
+                        <a https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&w=600></a>
+                    <img src="https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>      
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" data-caption="2">
+                        <a https://images.pexels.com/photos/270829/pexels-photo-270829.jpeg?auto=compress&cs=tinysrgb&w=600></a>
+                   <img src="https://images.pexels.com/photos/270829/pexels-photo-270829.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail " data-caption="3">
+                        <a https://images.pexels.com/photos/1499627/pexels-photo-1499627.jpeg?auto=compress&cs=tinysrgb&w=600></a>
+                   <img src="https://images.pexels.com/photos/1499627/pexels-photo-1499627.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail"data-caption="4">
+                        <a https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&w=600>
+                        </a>
+                        <img src="https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail " data-caption="5">
+                        <a https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg?auto=compress&cs=tinysrgb&w=600></a>
+                       <img src="https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                </div></br>
+                <div class="col-md-4">
+                    <div class="thumbnail" data-caption="6">
+                        <a https://images.pexels.com/photos/1830252/pexels-photo-1830252.jpeg?auto=compress&cs=tinysrgb&w=600>
+                       <img src="https://images.pexels.com/photos/1830252/pexels-photo-1830252.jpeg?auto=compress&cs=tinysrgb&w=600>">
+                        </a>
+                    </div>
+                </div
+            </br>
+            <div class="container">
+    
+            <div class="text-right" style="color: rgb(31, 13, 67);">
+            <h3 style="color:#1f1f3f ;">تسجيل جديد</h3>
+            <p>الاسم</p>
+            <input type="text" size="20" maxlength="35">
+            <p>الرقم</p>
+            <input type="number" size="20" maxlength="35">
+            <p>كلمة السر </p>
+            <input type="password" size="20" maxlength="35"></br>
+            <button  type="button" class="btn btn-dark" class="text-center">تسجيل</button>
+        </div>
+        </div>
+        </br></br>
+    </br>  <footer>
+
+        <div class="col-md-6">
+        </br> </br><h3 class="text-white">روابط</h3>
+            <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">رابط 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">رابط 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">رابط 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">رابط 4</a>
+                </li>
+              </ul>
+              
+              <h3 class="text-white">تواصل معنا </h3>
+           <a class="fa fa-facebook"></a>
+            <a class="fa fa-instagram"></a>
+            <a class="fa fa-twitter"></a>
+            <a class="fa fa-linkedin"></a>
+            </br>
+      
+        </br> </div>
+
+                    <div class="container text-white" style="background-color: rgb(16, 21, 53);">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="text-right">نبذة عنا</h1>
+                                <p class="text-right">متجر فنون الكتروني 
+                               يعد هذا الموقع واجهة إلكترونية تم تصميمها لتوفير معرض للصور. يهدف الموقع إلى عرض صور متنوعة وجميلة بطريقة مرتبة وسهلة الاستخدام. يتم تنظيم الصور في مجموعات مختلفة ويتيح للمستخدمين الاطلاع عليها واستعراضها بسهولة. بالإضافة إلى ذلك، يتيح الموقع للمستخدمين إمكانية النقر على الصور لعرضها  كامل
+                                أو فتبحجمحها في صفحة جديد
+                                </p>
+                            </div>
+                            
+
+                          
+                               
+                          
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div> 
+
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
